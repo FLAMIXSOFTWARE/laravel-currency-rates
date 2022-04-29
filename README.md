@@ -26,7 +26,7 @@ We are working on adding drivers for other services. Our API is easily extendabl
 
 To get started, add the package to your project by issuing the following command:
 
-    composer require rshkabko/currency-rates
+    composer require flamix/currency-rates
 
 ## Getting Started
 
