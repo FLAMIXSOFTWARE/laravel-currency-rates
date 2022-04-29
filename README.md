@@ -26,25 +26,7 @@ We are working on adding drivers for other services. Our API is easily extendabl
 
 To get started, add the package to your project by issuing the following command:
 
-    composer require ultraleet/currency-rates
-
-### Laravel <5.5
-
-Laravel 5.5 introduced package discovery, which Currency Rates fully utilizes. However, if you are using an earlier version of Laravel, you will need to register the service provider in your `config/app.php` file:
-
-```php
-'providers' => [
-    // Other service providers...
-
-    Ultraleet\CurrencyRates\CurrencyRatesServiceProvider::class,
-],
-```
-
-Also, in the same file, add the `CurrencyRates` facade into the `aliases` array:
-
-```php
-'CurrencyRates' => Ultraleet\CurrencyRates\Facades\CurrencyRates::class,
-```
+    composer require rshkabko/currency-rates
 
 ## Getting Started
 
