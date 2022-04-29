@@ -1,5 +1,5 @@
 {
-    "name": "rshkabko/laravel-currency-rates",
+    "name": "flamix/laravel-currency-rates",
     "description": "Library for interacting with various currency exchange rates APIs",
     "license": "MIT",
     "keywords": ["currency", "rates", "api", "fixer", "fixerio", "laravel"],
@@ -11,10 +11,6 @@
         {
             "name": "Roman Shkabko",
             "email": "r.shkabko@flamix.email"
-        },
-        {
-            "name": "Ultraleet Technologies",
-            "homepage": "https://github.com/ultraleettech/"
         }
     ],
     "require": {
